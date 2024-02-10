@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-height: fit-content;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+#choices button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result p {
+    margin: 5px 0;
+}
+
+#Reset {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
